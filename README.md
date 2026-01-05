@@ -3,6 +3,7 @@
 This is a curated dataset for drone detection tasks, ready for object detection models (e.g., YOLO). This repository contains cleaned, annotated images of drones and non-drone scenes, along with scripts used for preprocessing and splitting.
 
 ## Dataset Structure
+```
 Drone_Detection_Dataset/
 ├── train/           # Training set
 │   ├── *.jpg        # Drone and non-drone images
@@ -19,6 +20,7 @@ Drone_Detection_Dataset/
 │   ├── join.py
 │   └── train_val_split.py
 └── .gitignore
+```
 
 ## Dataset Details
 
@@ -34,7 +36,8 @@ Drone_Detection_Dataset/
 1. Clone the repository:  
    ```bash
    git clone https://github.com/SamuelTre07/Drone_Detection_Dataset.git
-   cd Drone_Detection_Dataset```
+   cd Drone_Detection_Dataset
+   ```
 
 2. The dataset can be used directly with YOLO or other object detection pipelines. For YOLO, ensure your data.yaml points to the train and val folders and includes the correct class names.
 
