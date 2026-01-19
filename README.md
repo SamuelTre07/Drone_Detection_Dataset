@@ -3,7 +3,8 @@
 This is a curated dataset for drone detection tasks, ready for object detection models (e.g., YOLO). This repository contains cleaned, annotated images of drones and non-drone scenes, along with scripts used for preprocessing and splitting.
 
 ## Dataset Structure
-```
+
+```text
 Drone_Detection_Dataset/
 ├── train/           # Training set
 │   ├── *.jpg        # Drone and non-drone images
@@ -33,7 +34,8 @@ Drone_Detection_Dataset/
 
 ## Usage
 
-1. Clone the repository:  
+1. Clone the repository:
+
    ```bash
    git clone https://github.com/SamuelTre07/Drone_Detection_Dataset.git
    cd Drone_Detection_Dataset
@@ -46,7 +48,7 @@ Drone_Detection_Dataset/
 ## Notes
 
 - This repo contains only the processed images and annotations. Original raw images are **not included**.
-- All steps of preprocessing, filtering, and annotation will be documented in a future blog post.
+- All steps of preprocessing, filtering, and annotation are documented in this [blog post](https://marvindoingmle.substack.com/p/i-couldnt-find-the-right-dataset).
 
 ## License & Usage
 
